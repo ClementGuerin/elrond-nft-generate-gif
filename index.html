@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools - BunnyVerse</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Elrond NFTs to GIF</h1>
+    <input id="egld-address" placeholder="Insert your Elrond Address" value="erd1xenu32pqhd2rv20jxklwt5asfwzmrqhpxr5pl43aj366ghqlg6rs3whzy7">
+    <button id="submit">Submit</button>
+
+    <div class="images-section">
+        <ul class="images-list">
+            <div id="images-list-item-before"></div>
+        </ul>
+        <input id="delay" type="number" min="0" max="10000" value="100" placeholder="Delay (in milliseconds)">
+        <button id="generate">Generate GIF</button>
+        <div class="gif-container">
+            <img>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/main.js"></script>
+</html>

@@ -1,0 +1,36 @@
+.images-section {
+    display: none;
+}
+
+.images-list {
+    list-style: none;
+    padding: 0;
+}
+
+.images-list-item {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    border: solid 1px #eee;
+    cursor: pointer;
+}
+
+.images-list-item.selected {
+    background: #3498db;
+}
+
+.images-list-item img {
+    max-width: 100px;
+    object-fit: contain;
+}
+
+.gif-container {
+    display: none;
+    padding: 30px;
+}
+
+.gif-container img {
+    max-width: 512px;
+    object-fit: contain;
+}
